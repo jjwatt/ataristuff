@@ -22,7 +22,7 @@ $(TARGET).md5: $(TARGET)
 
 all: $(TARGET) $(TARGET).md5 stella.pro
 
-.PHONY: clean run all
+.PHONY: all run clean
 
 clean:
 	rm $(TARGET)
